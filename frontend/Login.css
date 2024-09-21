@@ -1,0 +1,104 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    border: 1px solid white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    margin:20px;
+    padding: 50px;
+    border-radius: 10px;
+}
+#cmpLogo{
+    height: 10rem;
+    width: 20rem;
+}
+#googleIcon{
+    height: 20px;
+    width: 20px;
+}
+.usernameConatiner{
+    padding-right: 0;
+    border-style: solid;
+    border-radius: 10px;
+    display: block;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    
+}
+
+.usernameConatiner:hover{
+    border-color: pink;
+    transition: all;
+    animation-duration:300ms
+}
+
+
+.urlText{
+    font-size: large;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+#icon{
+    height: 20px;
+    width: 20px;
+    font-weight: bold;
+    
+}
+
+input{
+    border: none;
+    max-width: fit-content;
+    font-size: large;
+}
+
+input:focus{
+    outline: none;
+}
+
+.loginBtn{
+    cursor: pointer;
+    border-style: solid;
+    border-color: PINK;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.loginBtn:hover{
+    background-color: pink;
+    transition-duration: 200ms;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.googleLoginBtn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    gap: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+
+}
